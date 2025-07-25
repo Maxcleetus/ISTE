@@ -36,3 +36,14 @@
 .animate-floatY {
   animation: floatY 4s ease-in-out infinite;
 }
+@keyframes marquee {
+  0%   { transform: translateX(0%); }
+  50%  { transform: translateX(-50%); }
+  75% { transform: translateX(50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 5s linear infinite;
+}

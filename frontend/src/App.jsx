@@ -26,8 +26,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/events' element={<Events/>}/>
-        <Route path='/events/:cat' element={<Events/>}/>
+        <Route path='/atom' element={<Events/>}/>
+        <Route path='/atom/:cat' element={<Events/>}/>
         <Route path='/singleevent/:eventid' element={<SingleEvent/>}/>
       </Routes>
       <Footer/>

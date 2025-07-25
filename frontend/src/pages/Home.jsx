@@ -41,7 +41,7 @@ const Home = () => {
                         Be a part of active Societies like Astro & Mechatronics
                     </p>
 
-                    <NavLink to='/allbook' className='flex md:hidden '>
+                    <NavLink to='/atom' className='flex md:hidden '>
                         <div className="pt-2 ">
                             <button className="bg-gray-700 hover:bg-gray-600 text-white text-[16px] px-3 py-1 md:px-6 md:py-2 rounded-full shadow transition-all duration-200">
                                 Browse Events
@@ -64,17 +64,17 @@ const Home = () => {
                             alt=""
                         />
                     </div>
-                    <p className=" md:text-[16px]  text-gray-600 text-sm  text-center max-w-[700px]">
-                        A concise reference list of all categories—perfect for quickly locating or jumping to specific content areas.
+                    <p className=" md:text-[20px] pt-4  text-black/80   text-center max-w-[700px]">
+                        "Atom is a dynamic technical event where innovation meets creativity, empowering students to explore, build, and showcase groundbreaking tech solutions."
                     </p>
                 </div>
                 <div>
                     <div className='flex scrollbar-hidden items-center justify-start md:justify-center overflow-x-scroll gap-6 py-4 md:py-6 md:mb-5'>
-                        <div onClick={() => navigate(`/allbook/story`)}><Circle category='story' /></div>
-                        <div onClick={() => navigate(`/allbook/code`)}><Circle category='code' /></div>
-                        <div onClick={() => navigate(`/allbook/notes`)}><Circle category='notes' /></div>
-                        <div onClick={() => navigate(`/allbook/selfdev`)}><Circle category='selfdev' /></div>
-                        <div onClick={() => navigate(`/allbook/novel`)}><Circle category='novel' /></div>
+                        <div onClick={() => navigate(`/atom/workshop`)}><Circle category='Workshops' /></div>
+                        <div onClick={() => navigate(`/atom/talksession`)}><Circle category='Talksession' /></div>
+                        <div onClick={() => navigate(`/atom/competition`)}><Circle category='Competitions' /></div>
+                        <div onClick={() => navigate(`/atom/culturals`)}><Circle category='Culturals' /></div>
+                        <div onClick={() => navigate(`/atom/preevents`)}><Circle category='PreEvents' /></div>
                     </div>
                 </div>
             </section>

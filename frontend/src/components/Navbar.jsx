@@ -27,8 +27,8 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(false)} to='/' className={({ isActive }) => `py-2 ${isActive ? 'bg-black/80 text-gray-300 px-2 rounded-lg' : ''}`}>
               HOME
             </NavLink>
-            <NavLink onClick={() => setIsOpen(false)} to='/events' className={({ isActive }) => `py-2 px-2 ${isActive ? 'bg-black/80 px-2 text-gray-300 rounded-lg' : 'border-0'}`}>
-              EVENTS
+            <NavLink onClick={() => setIsOpen(false)} to='/atom' className={({ isActive }) => `py-2 px-2 ${isActive ? 'bg-black/80 px-2 text-gray-300 rounded-lg' : 'border-0'}`}>
+              ATOM
             </NavLink>
             <NavLink onClick={() => setIsOpen(false)} to='/contact' className={({ isActive }) => `py-2 ${isActive ? 'bg-black/80 px-2 text-gray-300 rounded-lg' : 'border-0'}`}>
               CONTACT
@@ -39,8 +39,8 @@ const Navbar = () => {
           <NavLink to='/' className={({ isActive }) => ` ${isActive ? 'border-b-2 border-b-black/80' : 'border-0'}`}>
             HOME
           </NavLink>
-          <NavLink to='/events' className={({ isActive }) => `${isActive ? 'border-b-2 border-b-black/80' : 'border-0'}`}>
-            EVENTS
+          <NavLink to='/atom' className={({ isActive }) => `${isActive ? 'border-b-2 border-b-black/80' : 'border-0'}`}>
+            ATOM
           </NavLink>
           <NavLink to='/contact' className={({ isActive }) => `${isActive ? 'border-b-2 border-b-black/80' : 'border-0'}`}>
             CONTACT
